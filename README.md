@@ -78,7 +78,8 @@ Hosts → Switch → Controller (POX)
 ---
 
 ## 📸 Screenshots
-(See `/screenshots.md` folder for outputs)
+
+[Click here to view screenshots](screenshots.md)
 
 ---
 
