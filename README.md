@@ -1,11 +1,11 @@
-# 🚦 Traffic Classification System using SDN
+#  Traffic Classification System using SDN
 
-## 📌 Problem Statement
+##  Problem Statement
 To classify network traffic based on protocol type (TCP, UDP, ICMP) using Software Defined Networking (SDN) with Mininet and POX controller.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Identify TCP, UDP, and ICMP packets  
 - Maintain real-time traffic statistics  
 - Display classification results  
@@ -13,7 +13,7 @@ To classify network traffic based on protocol type (TCP, UDP, ICMP) using Softwa
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - Mininet (Network Simulation)
 - POX Controller (SDN Controller)
 - Python
@@ -21,7 +21,7 @@ To classify network traffic based on protocol type (TCP, UDP, ICMP) using Softwa
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 Hosts → Switch → Controller (POX)
 
 - Switch forwards packets to controller  
@@ -29,7 +29,7 @@ Hosts → Switch → Controller (POX)
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 1. Packet arrives at switch  
 2. Switch sends packet to controller (Packet-In)  
 3. Controller extracts IPv4 protocol field  
@@ -43,7 +43,7 @@ Hosts → Switch → Controller (POX)
 
 ---
 
-## 🚀 Features
+##  Features
 - Real-time packet classification  
 - Traffic statistics tracking  
 - Percentage-based traffic distribution  
@@ -52,23 +52,23 @@ Hosts → Switch → Controller (POX)
 
 ---
 
-## 🧪 Testing & Results
+##  Testing & Results
 
-### ✅ ICMP (Ping)
+###  ICMP (Ping)
 - Command: `h1 ping h2`
 - Observed latency and ICMP detection
 
-### ✅ TCP Traffic
+###  TCP Traffic
 - Command: `nc`
 - Successfully detected TCP packets
 
-### ✅ UDP Traffic
+###  UDP Traffic
 - Command: `iperf`
 - Measured throughput and detected UDP packets
 
 ---
 
-## 📊 Output
+##  Output
 - Packet logs (TCP, UDP, ICMP detection)  
 - Statistics:
   - Total packet counts  
@@ -77,30 +77,30 @@ Hosts → Switch → Controller (POX)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 [Click here to view screenshots](screenshots.md)
 
 ---
 
-## 📈 Performance Analysis
+##  Performance Analysis
 - Latency measured using ping  
 - Throughput measured using iperf  
 - Flow rules observed using `dpctl dump-flows`  
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The system successfully classifies network traffic using SDN principles, maintains statistics, and analyzes traffic distribution efficiently.
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 - GUI dashboard for visualization  
 - Machine learning-based traffic analysis  
 - Intrusion detection system integration  
 
 ---
 
-## 👨‍💻 Author
+##  Author
 P Mahema Sai
